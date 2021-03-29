@@ -1,0 +1,15 @@
+.dub
+docs.json
+__dummy.html
+docs/
+/sndio
+sndio.so
+sndio.dylib
+sndio.dll
+sndio.a
+sndio.lib
+sndio-test-*
+*.exe
+*.o
+*.obj
+*.lst

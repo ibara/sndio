@@ -1,0 +1,24 @@
+{
+	"name": "sndio",
+	"description": "D bindings for sndio, a cross-platform audio and MIDI framework.",
+	"license": "ISC",
+	"homepage": "https://sndio.org/",
+	"sourcePaths": ["."],
+	"importPaths": ["."],
+	"excludedSourceFiles": [
+		"example.d"
+	],
+	"libs": ["sndio"],
+	"configurations": [
+		{
+			"name": "lib",
+			"targetType": "sourceLibrary"
+		},
+		{
+			"name": "sndio-example",
+			"targetName": "sndio-example",
+			"targetType": "executable",
+			"sourceFiles": ["example.d"]
+		}
+	]
+}
